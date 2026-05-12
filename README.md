@@ -266,22 +266,39 @@ This is very similar to the workflow used in banks and fintech companies.
 
 ---
 
-## 🖼️ How to Add Images to README.md
+## 📊 Exploratory Data Analysis
 
-```markdown
-## Cost vs Threshold
+### Class Distribution
+![Class Distribution](Images/Class_distribution.png)
 
-![Cost vs Threshold](images/cost_vs_threshold.png)
+### Transaction Amount Distribution
+![Amount Distribution](Images/Amount_distribution.png)
 
-The minimum business cost was achieved at threshold 0.20.
-```
+---
 
-```markdown
-## SHAP Summary Plot
+## 📈 Model Performance
 
-![SHAP Summary Plot](images/shap_summary.png)
+### Precision-Recall Curve
+![Precision Recall Curve](Images/Pre_rec_curve.png)
 
-V4 was identified as the most influential feature in fraud prediction.
+### Confusion Matrix
+![Confusion Matrix](Images/Confusion_matrix.png)
+
+### Cost-Based Evaluation
+![Cost Based Evaluation](Images/Cost_based_eval.png)
+
+### Calibration Curve
+![Calibration Curve](Images/Calibration_curve.png)
+
+---
+
+## 🧠 Model Explainability
+
+### SHAP Summary Plot
+![SHAP Global Explanation](Images/Shap_explain.png)
+
+### SHAP Waterfall Plot
+![SHAP Local Explanation](Images/Shap_local_explain.png)
 
 ```
 
